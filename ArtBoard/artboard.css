@@ -1,0 +1,189 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+	background-color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-01 {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-card {
+	width: 40%;
+	background-color: #fff;
+	margin: 40px;
+	border-radius: 20px;
+	box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.48);
+	-webkit-box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.48);
+	-moz-box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.48);
+}
+
+.login-title h1 {
+	font-size: 18px;
+	margin-bottom: 0px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.login-title {
+	background-color: #E27D3B;
+	padding: 10px;
+}
+
+.login-title i {
+	color: #fff;
+	padding: 0px 10px;
+}
+
+.for-right {
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+
+.product-rating {
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	margin: 10px 0px;
+	width: 90%;
+	background-color: #7B7B7B;
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+}
+
+.product-rating h6 {
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 15px;
+	margin-right: 40px;
+}
+
+.product-rating i {
+	color: #FFCF00;
+	margin-right: 8px;
+}
+
+.last {
+	color: #B1B1B1 !important;
+}
+
+.write-review {
+	width: 90%;
+}
+
+.write-review textarea {
+	width: 90%;
+	outline: none;
+	max-height: 100px;
+	min-height: 100px;
+	padding: 10px;
+	border: 1px solid rgb(223, 223, 223);
+}
+
+.add-photo-vdo {
+	display: flex;
+	width: 90%;
+	text-align: right;
+	justify-content: right;
+	margin-bottom: 50px;
+}
+
+.photo button,
+.video button {
+	border: none;
+	margin-left: 20px;
+	background-color: #E27D3B;
+	color: #fff;
+	border-radius: 10px;
+	padding: 3px 8px;
+	font-size: 12px;
+}
+
+.photo button:hover,
+.video button:hover {
+	background-color: #fa7319;
+}
+
+.post-review button {
+	border: none;
+	margin-left: 20px;
+	background-color: #E27D3B;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px 10px;
+	font-size: 15px;
+}
+
+.post-review button:hover {
+	background-color: #E27D3B;
+}
+
+
+
+@media screen and (max-width: 991px) {
+	.main-card {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-card {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.main-card {
+		width: 70%;
+	}
+
+
+}
+
+@media screen and (max-width: 560px) {
+	.main-card {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.menu-01 {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.product-rating h6 {
+		font-size: 13px;
+		margin-right: 25px;
+	}
+
+	.product-rating i {
+		font-size: 13px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 345px) {
+	.product-rating h6 {
+		font-size: 11px;
+		margin-right: 20px;
+	}
+
+	.product-rating i {
+		font-size: 11px;
+		margin-right: 5px;
+	}
+}

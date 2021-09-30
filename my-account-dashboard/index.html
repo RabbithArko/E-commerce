@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My account Dashboard</title>
+
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Iconify -->
+  <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+  <!-- Custom css -->
+  <link rel="stylesheet" href="navbar.css">
+
+  <!-- Custom js -->
+  <script src="navbar.js" defer></script>
+
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="my-account-dashboard.css">
+
+</head>
+
+<body>
+
+
+
+
+
+  <!-- header start -->
+  <header id="header">
+    <ul>
+      <li class="mobile__hamburgerMenu">
+        <!-- Mobile hamburger menu section starts -->
+        <div id="mobile__hamburgerMenu">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+        <!-- Mobile hamburger menu section ends -->
+      </li>
+      <li>
+        <a href="#">
+          <img class="logo__img" src="img/home-page-perfect.png" alt="">
+        </a>
+      </li>
+      <li class="desktop__hamburgerMenu">
+        <!-- Hamburger menu section starts -->
+        <div class="hamburger__menu">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+        <!-- Hamburger menu section ends -->
+      </li>
+      <li>
+        <a href="#" class="header__list">
+          Shop
+        </a>
+      </li>
+      <li class="for-search">
+        <!-- Form section starts -->
+        <form method="get" id="header__searchbar">
+          <input type="search" placeholder="Search...">
+          <span class="iconify" data-icon="ant-design:search-outlined"></span>
+        </form>
+        <!-- Form section ends -->
+      </li>
+      <li>
+        <a href="#" class="header__list header__listExtend">
+          <span class="iconify" data-icon="bx:bxs-shopping-bag"></span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="header__list header__listExtend profile__header">
+          <span class="iconify" data-icon="bi:person-fill"></span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Header dropdown section starts -->
+    <div class="header__dropdown">
+      <ul class="header__dopdownTopSection">
+        <li>
+          <a href="#">
+            <img class="logo__img" src="img/home-page-perfect.png" alt="">
+          </a>
+        </li>
+        <li class="header__dropdownClose">
+          <span class="iconify" data-icon="radix-icons:cross-circled"></span>
+        </li>
+      </ul>
+      <ul class="header__dopdownMiddleSection">
+        <li>
+          <ul class="category__section">
+            <li>
+              <a href="#">
+                <span>Jewelry & Accessories</span>
+                <div class="category__line">
+                  <div></div>
+                  <div></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Clothing & Shoes</span>
+                <div class="category__line">
+                  <div></div>
+                  <div></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Home & Living</span>
+                <div class="category__line">
+                  <div></div>
+                  <div></div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span>Wedding & Party</span>
+                <div class="category__line">
+                  <div></div>
+                  <div></div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Header dropdown section ends -->
+  </header>
+  <!-- header end -->
+
+
+
+
+  <div class="for-top-radius">
+
+    <div class="container ">
+
+      <div class="menu-progress pt-5">
+        <h5>My Account</h5>
+        <i class="fas fa-home home"></i>
+        <i class="fas fa-angle-double-right"></i>
+        <span class="home">My_Account</span>
+        <i class="fas fa-angle-double-right"></i>
+        <span>Edit Profile</span>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="container  pt-5 pb-5">
+      <div class="row">
+
+        <div class="col-md-10 d-block m-auto total-main-div">
+          <div class="account-details">
+            <div class="row">
+
+              <div class="col-md-4 for-increase-left-padding">
+
+                <div class="about-customer">
+
+
+                  <div class="inner-about-cus">
+                    <img src="img/customer.png" alt="">
+                    <p>CUSTOMER</p>
+                  </div>
+
+                  <div class="customer-details">
+                    <a href="">
+                      <h6 class="active-for-dash">DASHBOARD
+                      </h6>
+                    </a>
+                    <a href="">
+                      <h6>MESSEGES</h6>
+                    </a>
+                    <a href="">
+                      <h6>MY ORDERS</h6>
+                    </a>
+                    <a href="">
+                      <h6>PYAMENT METHORD</h6>
+                    </a>
+                    <a href="">
+                      <h6>ADDRESS</h6>
+                    </a>
+                    <a href="">
+                      <h6>ACCOUNT DETAILS</h6>
+                    </a>
+
+                    <a href="">
+                      <h6 class="log-out">LOGOUT</h6>
+                    </a>
+                  </div>
+
+
+                </div>
+              </div>
+
+
+              <div class="col-md-8">
+                <div class="for-main-personal-info">
+
+                  <div class="personal-info-title">
+                    <h4>Dashboard</h4>
+                  </div>
+
+                  <div class="inner-dashboard">
+
+                    <div class="for-das-order">
+                      <h6>3</h6>
+                      <span>Orders</span>
+                    </div>
+
+                    <div class="for-das-order">
+                      <h6>15</h6>
+                      <span>Wishlist</span>
+                    </div>
+
+                    <div class="for-das-order">
+                      <h6>20</h6>
+                      <span>Unread Messages</span>
+                    </div>
+
+                    <div class="for-das-order">
+                      <h6>3</h6>
+                      <span>Cupons</span>
+                    </div>
+
+                    <div class="for-das-order">
+                      <h6>0</h6>
+                      <span>Dispute</span>
+                    </div>
+                  </div>
+
+                </div>
+
+
+
+
+                <div class="row">
+                  <div class="col-lg-6 mt-4">
+                    <div class="dashboard-inner-left table-responsive">
+
+                      <table class="table table-borderless">
+                        <thead>
+                          <tr>
+
+                            <th scope="col">Date</th>
+                            <th scope="col" class="for-border">Orders</th>
+                            <th scope="col">Amounts</th>
+                          </tr>
+                        </thead>
+
+                        <!-- table data                    -->
+                        <tbody>
+
+                          <tr>
+
+                            <td class="align-middle">Aug 4</td>
+                            <td>
+                              <div class="inner-table-orders">
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>#9853251</strong>
+                                <div>
+                                  <span class="badge bg-secondary status-bar">PROSSSING</span>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="align-middle">@$ 537.78</td>
+                          </tr>
+
+
+                          <tr>
+
+                            <td class="align-middle">Aug 4</td>
+                            <td>
+                              <div class="inner-table-orders">
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>#9853251</strong>
+                                <div>
+                                  <span class="badge bg-primary status-bar">WAITING FOR SHIPPING</span>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="align-middle ">@$ 537.78</td>
+                          </tr>
+
+
+
+                          <tr>
+
+                            <td class="align-middle">Aug 4</td>
+                            <td>
+                              <div class="inner-table-orders">
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>#9853251</strong>
+                                <div>
+                                  <span class="badge bg-warning text-dark status-bar">ITEM NOW SHIPPING</span>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="align-middle ">@$ 537.78</td>
+                          </tr>
+
+
+
+                          <tr>
+
+                            <td class="align-middle">Aug 4</td>
+                            <td>
+                              <div class="inner-table-orders">
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>#9853251</strong>
+                                <div>
+                                  <span class="badge bg-success status-bar">COMPLETE ORDER</span>
+                                </div>
+                              </div>
+                            </td>
+                            <td class="align-middle">@$ 537.78</td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+
+
+                    </div>
+
+
+
+
+
+
+                  </div>
+                  <div class="col-lg-6 mt-4 mb-4">
+
+                    <div class="dashboard-inner-right table-responsive">
+
+
+                      <table class="table table-borderless">
+                        <thead>
+
+                          <tr>
+                            <th scope="col">Wishlist</th>
+                            <th scope="col"></th>
+
+                          </tr>
+
+                        </thead>
+
+                        <tbody>
+
+
+
+                          <tr>
+                            <td colspan="1">
+
+                              <div class="inner-table-orders">
+
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>Reiciendis quia aut laudantium et.</strong>
+
+                              </div>
+
+
+                            </td>
+
+                            <td class="for-button align-middle">
+                              <div class="shop-now">
+                                <button>SHOP NOW</button>
+                              </div>
+                            </td>
+
+                          </tr>
+
+
+                          <tr>
+
+                            <td>
+                              <div class="inner-table-orders">
+
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>Reiciendis quia aut laudantium et.</strong>
+
+                              </div>
+                            </td>
+
+
+                            <td class="for-button align-middle">
+                              <div class="shop-now">
+                                <button>SHOP NOW</button>
+                              </div>
+                            </td>
+
+                          </tr>
+
+                          <tr>
+
+                            <td colspan="1">
+                              <div class="inner-table-orders">
+
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>Reiciendis quia aut laudantium et.</strong>
+
+                              </div>
+                            </td>
+
+                            <td class="for-button align-middle">
+                              <div class="shop-now">
+                                <button>SHOP NOW</button>
+                              </div>
+                            </td>
+
+                          </tr>
+
+                          <tr>
+
+                            <td colspan="1">
+                              <div class="inner-table-orders">
+
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>Reiciendis quia aut laudantium et.</strong>
+
+                              </div>
+                            </td>
+
+                            <td class="for-button align-middle">
+                              <div class="shop-now">
+                                <button>SHOP NOW</button>
+                              </div>
+                            </td>
+
+                          </tr>
+
+                          <tr>
+
+                            <td colspan="1">
+                              <div class="inner-table-orders">
+
+                                <img src="img/bgbg.jpg" alt="">
+                                <strong>Reiciendis quia aut laudantium et.</strong>
+
+                              </div>
+                            </td>
+
+                            <td class="for-button align-middle">
+                              <div class="shop-now">
+                                <button>SHOP NOW</button>
+                              </div>
+                            </td>
+
+                          </tr>
+
+
+
+                        </tbody>
+                      </table>
+
+
+
+                      <div class="see-more-button">
+                        <button>SEE MORE</button>
+                      </div>
+
+                    </div>
+
+
+
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+  <!-- footer start -->
+  <section id="footer">
+    <div class="inner_footer">
+      <div class="address_link">
+        <div class="logo_img">
+          <img src="img/footer_logo.png" alt="">
+        </div>
+        <div class="logo_img_adress">
+          <p>Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li
+            lingues differe solmen in li</p>
+        </div>
+
+        <div class="social_media">
+
+          <span class="iconify" data-icon="brandico:facebook"></span>
+          <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+          <span class="iconify" data-icon="akar-icons:instagram-fill"></span>
+          <span class="iconify" data-icon="bi:youtube"></span>
+
+        </div>
+
+
+      </div>
+
+      <div class="link_item">
+        <div class="inner__link__item">
+
+          <p class="quick__links__title mb-4">QUICK LINKS</p>
+
+          <p>Additional Service</p>
+          <p>Contuct Us</p>
+          <p>Storage</p>
+          <p>Quality Policy Statement</p>
+          <p>Insurance</p>
+        </div>
+      </div>
+
+      <div class="service_link">
+        <div class="inner__link__item">
+          <p class="quick__links__title mb-4">SERVICES</p>
+
+          <p>Residential Moving</p>
+          <p>Commercial Relocation
+          </p>
+          <p>Commercial Relocation
+          </p>
+          <p>Commercial Relocation
+          </p>
+          <p>International Move</p>
+        </div>
+      </div>
+
+      <div class="contact_us">
+
+        <p class="quick__links__title mb-4">Contact Us</p>
+
+        <div class="inner__const__us__add">
+          <h6>1988 York Street </h6>
+          <h6>Oak Park, MI 48237</h6>
+        </div>
+
+        <div class="inner__const__us__mob">
+          <h6>+1-202-555-0171</h6>
+          <h6>+1-202-555-0160</h6>
+        </div>
+
+        <div class="inner__const__us">
+          <h6>info@movers.com</h6>
+          <h6>contact@movers.com</h6>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <div class="footer__lower__part">
+    <div class="copy__right__footer">
+      <p>Copy right @ 2020 All Rights Reserved by <span>Ceysell.com</span> </p>
+    </div>
+
+    <div class="contact__info__underfooter">
+      <p>BRF - 454125125565</p>
+    </div>
+
+    <div class="payment__method__footer">
+      <div>
+        <p>Accepted payment methods</p>
+      </div>
+      <div class="d-flex">
+        <img src="img/visa-card.png" alt="">
+        <img src="img/master-card.png" alt="">
+        <img src="img/paypal.png" alt="">
+        <img src="img/amazon-card.png" alt="">
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- footer end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,499 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+    
+}
+.for-top-radius{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: #fff;
+}
+.for-more-bg{
+    background: #F4E8F7;
+}
+/* 
+box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+-webkit-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48); */
+.main-form{
+	padding: 35px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+
+}
+.menu-progress{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+
+    background-color: #fff;
+}
+.menu-progress h5{
+	margin-right: 30px;
+}
+.menu-progress i, .menu-progress span{
+	margin-right: 20px;
+    font-weight: 600;
+}
+.home{
+	color: #E27D3B;
+	font-weight: 600;
+}
+
+/* open dispute start */
+/* left section start */
+.how-open{
+    background-color: #E6E6E6;
+    padding: 35px 20px 40px 40px;
+    border-radius: 10px;
+}
+.inner-how-open h6{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.inner-how-open span{
+    font-size: 15px;
+    font-weight: 700;
+}
+.inner-how-open p{
+    font-size: 13px;
+    font-weight: 700;
+    color: #7B7B7B;
+    margin-bottom: 20px;
+}
+
+/* open dispute end */
+
+
+
+/* right section for progress */
+
+.open-dispute-title{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 30px 0px;
+}
+.open-dispute-title h1{
+    width: 60%;
+    text-align: center;
+    right: 0;
+    font-size: 35px;
+    color: #B0B0B0;
+}
+
+.progressbar {
+    counter-reset: step;
+    margin-bottom: 0px;
+  }
+  .progressbar li {
+    list-style: none;
+    display: inline-block;
+    width: 24%;
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    color: #2F2651;
+  }
+  .progressbar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 30px;
+    height: 30px;
+    line-height : 25px;
+    border: 3px solid #000;
+    border-radius: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    background-color: #fff;
+    font-weight: 700;
+}
+  .progressbar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    top: 15px;
+    left: -50%;
+    z-index : -1;
+  }
+  .progressbar li:first-child:after {
+    content: none;
+  }
+  .progressbar li.active {
+    color: #000;
+  }
+  .progressbar li.active:before {
+    border-color: #E27D3B;
+  } 
+  .progressbar li.active + li:after {
+    background-color: #000;
+  }
+
+.under-progress{
+    width: 30%;
+    text-align: center;
+    margin-left: 48%;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+
+/* for two button  */
+.contact-open-button{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    border-bottom: 1px solid #000;
+}
+
+.contact-seller button, .open-dis button{
+    border: none;
+    margin: 0px 30px;
+    background-color: #E27D3B;
+    color: #fff;
+    padding: 8px 30px;
+    font-weight: 600;
+    font-style: italic;
+    border-radius: 10px;
+    transition: background-color .3s ease;
+}
+.open-dis button{
+background: rgb(152,114,251);
+background: linear-gradient(180deg, rgba(152,114,251,1) 0%, rgba(187,114,251,1) 50%, rgba(209,114,251,1) 100%);
+
+}
+.open-dis button:hover{
+    background: rgb(152,114,251);
+background: linear-gradient(180deg, rgba(152,114,251,1) 0%, rgba(178,63,209,1) 50%, rgba(193,56,253,1) 100%);
+}
+.contact-seller button{
+    border: 2px solid #E27D3B;
+}
+.contact-seller button:hover{
+    background-color: #fff;
+    color: #E27D3B;
+}
+
+.refund-req{
+    font-size: 14px;
+    color: #7A7490;
+    font-weight: 600;
+    font-style: italic;
+}
+.refund-req p, .return-goods p{
+    margin-bottom: 0px;
+}
+.return-goods{
+    font-size: 14px;
+    color: #7A7490;
+    font-weight: 600;
+    font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+    .open-dispute-title {
+        justify-content: center;
+    }
+    .progress-bar-for-order{
+        margin-top: 40px;
+    }
+    .progressbar{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .under-progress {
+        margin-left: 46.5%;
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    .progressbar li {
+        list-style: none;
+        display: inline-block;
+        width: 22%;
+        position: relative;
+        text-align: center;
+        font-weight: 600;
+        color: #2F2651;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contact-seller button, .open-dis button {
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 423px) {
+    .progressbar{
+        font-size: 11px;
+    }
+    .under-progress{
+        font-size: 11px;
+    }
+    .menu-progress {
+        display: block;
+    }
+    .contact-seller button, .open-dis button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+
+/* footer part start */
+
+#footer{
+    background-color: #222222;
+    color: #D7D7D7;
+    padding: 40px 10px;
+}
+.inner_footer{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.address_link{
+    width: 30%;
+}
+.link_item{
+    width: 20%;
+}
+.service_link{
+    width: 20%;
+}
+ .contact_us{
+     width: 20%;
+ }
+
+.logo_img{
+    width: 250px;
+    height: 60px;
+}
+.logo_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo_img_adress{
+    color: #999999;
+    line-height: 2.5;
+    width: 50%;
+}
+.social_media{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social_media svg{
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+.quick__links__title{
+    font-weight: 700;
+    font-size: 14px;
+}
+.inner__link__item p{
+    margin-bottom: 20px;
+}
+.inner__const__us__add{
+    padding-bottom: 30px !important;
+    border-bottom: 1px solid #4d4d4d;
+    width: 60%;
+}
+.inner__const__us__add h6{
+    font-size: 10px;
+}
+.inner__const__us__mob{
+    padding-bottom: 30px !important;
+    border-bottom: 1px solid #4d4d4d;
+    width: 60%;
+    font-size: 12px;
+    padding-top: 30px;
+}
+.inner__const__us__mob h6{
+    font-size: 12px;
+}
+.inner__const__us{
+    padding: 30px 0px;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+.footer__lower__part{
+    background-color: #111111;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+    border-top: 1px solid #545454;
+}
+.copy__right__footer p{
+    font-size: 10px;
+}
+.contact__info__underfooter p{
+    font-size: 12px;
+}
+.footer__lower__part p{
+    margin-bottom: 0px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.payment__method__footer{
+    display: flex;
+    align-items: center;
+    
+}
+.payment__method__footer img{
+    display: flex;
+    width: 50px;
+    height: auto; 
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .inner_footer{
+        flex-wrap: wrap;
+    }
+    .address_link, .link_item, .contact_us, .service_link {
+        width: 50%;
+        padding-left: 80px;
+    }
+    .link_item {
+        width: 50%;
+    }
+    .address_link, .link_item{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer__lower__part{
+        flex-direction: column;
+    }
+    .payment__method__footer{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .payment__method__footer p{
+        margin-bottom: 15px;
+    }
+    .footer__lower__part p{
+        margin-right: 0px;
+    }
+    .logo_img_adress{
+        line-height: 1.5;
+        width: 100%;
+    }
+    .logo_img {
+        width: 215px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .address_link, .link_item, .contact_us, .service_link {
+        width: 50%;
+        padding-left: 20px;
+    }
+    .address_link{
+        width: 100%;
+        text-align: center !important;
+        padding-right: 20px;
+    }
+    .logo_img{
+        margin: 0 auto;
+    }
+    .social_media {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .contact_us{
+        width: 100%;
+        padding-left: 0px;
+        text-align: center;
+        margin-top: 20px;
+        padding: 30px;
+    }
+    .inner__const__us__add, .inner__const__us__mob{
+        width: 100%;   
+    }
+    .footer__lower__part{
+        text-align: center;
+    }
+}
+
+/* footer part end */
+
+
+
+/* responsive */
+@media screen and (max-width: 991px) {
+	.customer-details a h6{
+		font-size: 12px;
+	}
+	.first-name label, .last-name label, .date-of-birth label {
+		font-size: 11px;
+	}
+	.for-button button {
+		padding: 5px 16px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.first-name input, .last-name input, .for-mail-input{
+		width: 100%;
+	}
+	.for-date{
+		width: 100%;
+	}
+	.for-p-num-two {
+		width: 74% !important;
+	}
+	.for-button button {
+		padding: 10px 50px;
+	}
+}
+@media screen and (max-width: 530px) {
+	.menu-progress{
+		font-size: 12px;
+	}
+	.menu-progress h5{
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.menu-progress{
+		font-size: 12px;
+	}
+	.menu-progress h5{
+		font-size: 10px;
+	}
+	.menu-progress h5 {
+		margin-right: 10px;
+	}
+	.menu-progress span {
+		margin-right: 10px;
+	}
+}
+@media screen and (max-width: 355px) {
+	.menu-progress i {
+		margin-right: 4px !important;
+	}
+}

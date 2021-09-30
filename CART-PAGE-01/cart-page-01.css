@@ -1,0 +1,164 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #F4E8F7
+}
+
+.for-border-top{
+	background-color: #fff;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+
+}
+.main-form{
+	padding: 35px;
+	border-radius: 10px;
+	box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+-webkit-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+-moz-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.48);
+
+}
+.menu-progress{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.menu-progress h5{
+	margin-right: 30px;
+}
+.menu-progress i{
+	margin-right: 20px;
+}
+.main-card-input{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.naming-input, .email-input{
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+}
+.contact h4{
+	text-align: center;
+	font-style: italic;
+	color: rgba(0,0,0,0.48);
+	font-weight: 500;
+}
+.naming-input label, .email-input label{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.naming-input input, .email-input input{
+	padding: 8px 10px;
+	border: 1px solid rgb(231, 230, 230);
+	border-radius: 5px;
+	outline: none;
+}
+.email-input select{
+	padding: 8px 10px;
+	border: 1px solid rgb(231, 230, 230);
+	border-radius: 5px;
+	outline: none;
+}
+.messege-input{
+	display: flex;
+	flex-direction: column;
+}
+.messege-input label{
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.messege-input textarea{
+	width: 100%;
+	max-height: 100px;
+	min-height: 100px;
+	padding: 10px;
+	outline: none;
+	border: 1px solid rgb(231, 230, 230);
+	border-radius: 5px;
+}
+.messege-input p{
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: 500;
+}
+.button button{
+	border: none;
+	background-color: #E27D3B;
+	color: #fff;
+	padding: 8px 15px;
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 5px;
+	transition: all .2s ease-in-out;
+}
+.button button:hover{
+	background-color: #eb8e51;
+}
+.email-support{
+	display: flex;
+	justify-content: space-around;
+}
+
+.for-email, .for-support{
+	text-align: center;
+	width: 40%;
+}
+.for-email i, .for-support i {
+	font-size: 30px;
+	background-color: #F0F5FC;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: #9672FB;
+}
+.support{
+	border: 2px solid #1566D8;
+	color: #1566D8;
+	font-weight: 500;
+	background-color: transparent;
+	padding: 5px 30px;
+	border-radius: 5px;
+	transition: all .2s ease-in-out;
+}
+.support:hover{
+	border: 2px solid #1566D8;
+	color: #fff;
+	background-color: #1566D8;
+}
+.for-email p{
+	margin-bottom: 5px;
+}
+.for-email a{
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 440px) {
+	.email-support {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.for-email{
+		margin-bottom: 30px;
+	}
+	.for-email i, .for-support i {
+		margin-bottom: 10px;
+	}
+	.main-card-input {
+		flex-direction: column;
+	}
+	.naming-input, .email-input {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.for-email, .for-support {
+		text-align: center;
+		width: 100%;
+	}
+}

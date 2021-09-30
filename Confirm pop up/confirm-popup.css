@@ -1,0 +1,346 @@
+/* common css start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+	background-color: #f5f5f5;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.menu-01 {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-card {
+	width: 50%;
+	background-color: #fff;
+	padding: 30px;
+	border-top: 10px solid #E27C39;
+	margin: 40px;
+	border-radius: 20px;
+	box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.48);
+	-webkit-box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.48);
+	-moz-box-shadow: 0px 2px 12px -2px rgba(0, 0, 0, 0.48);
+}
+
+.login-title h1 {
+	font-size: 45px;
+	margin-bottom: 0px;
+}
+
+.login-title p {
+	font-size: 15px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+.reg-button {
+	margin-top: 30px;
+}
+
+.login-title h1 i {
+	color: #E27C39;
+	margin-right: 10px;
+
+}
+
+.login-title h1 {
+	font-size: 25px;
+	color: #7A7490;
+}
+
+.login-title p {
+	font-size: 15px;
+}
+
+/* dispute start */
+.main-dispute {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #E6E6E6;
+	padding: 10px 20px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.order-id {
+	font-size: 12px;
+	font-weight: 500;
+
+}
+
+.order-num {
+	color: #9672FB;
+	font-weight: 700;
+}
+
+.order-date {
+	font-size: 10px;
+	font-weight: 500;
+}
+
+.order-date p {
+	margin-bottom: 0px;
+}
+
+.order-date span {
+	font-style: italic;
+	color: #7A7490;
+	font-weight: 700;
+
+}
+
+.contact-sel {
+	font-size: 10px;
+	font-weight: 500;
+}
+
+.contact-sel a {
+	text-decoration: none;
+	font-style: italic;
+	color: #9672FB;
+}
+
+.order-amount {
+	text-align: right;
+}
+
+.pending {
+	font-style: italic;
+	font-weight: 500;
+}
+
+.order-amount h6 {
+	font-size: 12px;
+	margin-bottom: 0px !important;
+}
+
+.order-amount span {
+	font-size: 12px;
+	display: inline-block;
+}
+
+.order-amount button {
+	font-size: 12px;
+}
+
+.for-link-order-details {
+	text-align: right;
+}
+
+.order-detail {
+	text-decoration: none;
+	background-color: #E7EDF2;
+	color: #7A7490;
+	font-size: 8px;
+	padding: 3px 8px;
+	border-radius: 10px;
+	font-weight: 700;
+	-webkit-box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.lower-main-div {
+	display: flex;
+	padding: 30px 0px;
+}
+
+.lower-img img {
+	width: 90px;
+	height: 65px;
+	object-fit: cover;
+	margin-right: 5px;
+}
+
+.lower-dispute-title {
+	padding: 0px 10px;
+}
+
+.lower-dispute-title h6 {
+	font-size: 12px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+
+.lower-dispute-title strong {
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.dispute-button {
+	display: flex;
+	flex-direction: column;
+}
+
+.solved {
+	border: none;
+	font-size: 10px;
+	font-weight: 600;
+	padding: 5px 8px;
+	border-radius: 20px;
+	background-color: #E27D3B;
+	border: 2px solid #fff;
+	color: #fff;
+	margin-bottom: 10px;
+	font-weight: 900;
+	transition: all .3s ease-in-out;
+}
+
+.details {
+	background-color: #fff;
+	border: 2px solid #E27D3B;
+	color: #E27D3B;
+	margin-bottom: 10px;
+	font-weight: 900;
+	font-size: 10px;
+	padding: 5px 8px;
+	font-style: italic;
+	transition: all .3s ease-in-out;
+	border-radius: 20px;
+
+}
+
+.details:hover {
+	background-color: #E27D3B;
+	border: 2px solid #fff;
+	color: #fff;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+
+.solved:hover {
+	background-color: #fff;
+	border: 2px solid #E27D3B;
+	color: #E27D3B;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+
+
+.order-img-and-details {
+	width: 100%;
+}
+
+.inner-img-and-details {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 0px;
+}
+
+.order-img {
+	display: flex;
+}
+
+.for-img {
+	width: 70px;
+	height: 70px;
+	background-color: #B4B4B4;
+}
+
+.for-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.order-img h6 {
+	margin-bottom: 5px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+.order-check {
+	width: 10%;
+	height: 100%;
+	text-align: center;
+}
+
+.color-change {
+	accent-color: #e74c3c;
+}
+.butotn{
+	width: 100%;
+	display: flex;
+	justify-content: right;
+}
+.proceed button{
+	border: none;
+	background-color: #E27C39;
+	margin-left: 20px;
+	padding: 8px 15px;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 500;
+	transition: all .3s ease-in-out;
+}
+.proceed button:hover{
+	background-color: #fa6b0c;
+}
+.cancel button{
+	border: none;
+	background-color: #C9C7D2;
+	margin-left: 20px;
+	padding: 8px 15px;
+	border-radius: 5px;
+	color: #000;
+	font-weight: 500;
+	margin-left: 20px;
+	transition: all .3s ease-in-out;
+}
+.cancel button:hover{
+	background-color: #a3a3a3;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+	.main-card {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-card {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.main-card {
+		width: 70%;
+	}
+
+	.for-img {
+		width: 100px;
+		height: 70px;
+		background-color: #B4B4B4;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.main-card {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 520px) {
+	.menu-01 {
+		width: 100%;
+		height: 100%;
+		display: block;
+		justify-content: center;
+		align-items: center;
+	}
+}
